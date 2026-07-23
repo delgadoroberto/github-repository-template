@@ -71,8 +71,8 @@ The specific security controls implemented may vary depending on the project's t
 
 ## Contact
 
-For security-related concerns, please contact the repository maintainer through GitHub:
+If you discover a security vulnerability, please use GitHub's private vulnerability reporting feature when available.
 
-https://github.com/delgadoroberto
+If private reporting is not available and the report does not contain sensitive information, please open a GitHub Issue.
 
 Thank you for helping improve the security of this project.
