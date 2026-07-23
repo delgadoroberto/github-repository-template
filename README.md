@@ -8,21 +8,23 @@
 
 This repository provides a standardized structure for creating consistent, professional, and well-documented GitHub repositories.
 
-It includes reusable documentation, security policies, GitHub workflows, and recommended repository settings that can be used as the starting point for software engineering, DevSecOps, cloud, and cybersecurity projects.
+It includes reusable documentation templates, security policies, GitHub Actions workflows, repository configurations, and recommended best practices for software engineering, DevSecOps, cloud, and cybersecurity projects.
+
+The goal is to reduce repetitive work while maintaining a consistent, high-quality standard across all repositories.
 
 ---
 
-## Included Files
+## Features
 
-- README template
-- MIT License
-- Code of Conduct
-- Contributing Guide
-- Security Policy
+- Reusable repository templates
+- Standardized README structure
 - GitHub Actions workflows
+- Security policies
+- Documentation templates
+- Markdown linting configuration
 - Dependabot configuration
-- Markdownlint configuration
-- Standard repository structure
+- Professional repository structure
+- Ready-to-use repository files
 
 ---
 
@@ -33,10 +35,35 @@ It includes reusable documentation, security policies, GitHub workflows, and rec
 ├── .github/
 │   ├── workflows/
 │   └── dependabot.yml
+│
+├── assets/
+│   ├── banners/
+│   ├── badges/
+│   ├── logos/
+│   └── screenshots/
+│
 ├── docs/
 │   └── screenshots/
+│
+├── examples/
+│   ├── devsecops-lab/
+│   ├── docker-project/
+│   ├── python-library/
+│   ├── static-website/
+│   └── terraform-project/
+│
+├── templates/
+│   ├── github/
+│   │   ├── ISSUE_TEMPLATE.md
+│   │   └── PULL_REQUEST_TEMPLATE.md
+│   │
+│   └── repository/
+│       ├── AUTHOR_TEMPLATE.md
+│       ├── CONTRIBUTING_TEMPLATE.md
+│       ├── README_TEMPLATE.md
+│       └── SECURITY_TEMPLATE.md
+│
 ├── README.md
-├── README_TEMPLATE.md
 ├── LICENSE
 ├── CODE_OF_CONDUCT.md
 ├── CONTRIBUTING.md
@@ -47,13 +74,67 @@ It includes reusable documentation, security policies, GitHub workflows, and rec
 
 ---
 
+## Included Files
+
+### Repository Files
+
+- README.md
+- LICENSE
+- CODE_OF_CONDUCT.md
+- CONTRIBUTING.md
+- SECURITY.md
+- .gitignore
+- markdownlint.json
+
+### GitHub Configuration
+
+- GitHub Actions workflows
+- Dependabot configuration
+- Issue templates
+- Pull request template
+
+### Documentation Templates
+
+- README template
+- Author template
+- Security template
+- Contributing template
+
+---
+
 ## How to Use
 
 1. Create a new repository using **Use this template**.
-2. Replace `README.md` with the contents of `README_TEMPLATE.md`.
-3. Remove any files you don't need.
-4. Add project-specific documentation.
-5. Customize the GitHub Actions workflows as needed.
+2. Review the available templates in the `templates/` directory.
+3. Replace the generated `README.md` with the contents of `templates/README_TEMPLATE.md`.
+4. Customize the repository files according to your project.
+5. Remove any unused templates or workflows.
+6. Add project-specific documentation.
+7. Configure branch protection rules.
+8. Publish your repository.
+
+---
+
+## Future Improvements
+
+Planned enhancements include:
+
+- Additional README templates for different project types
+- Docker project template
+- Python project template
+- Node.js project template
+- Terraform project template
+- DevSecOps laboratory template
+- Repository publishing checklist
+- Documentation style guide
+
+---
+
+## Contributing
+
+Contributions, suggestions, and improvements are welcome.
+
+Please read the `CONTRIBUTING.md` guidelines before submitting changes.
 
 ---
 
