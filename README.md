@@ -1,6 +1,6 @@
 # GitHub Repository Template
 
-> A reusable GitHub repository template with documentation, security policies, GitHub Actions workflows, and best practices for professional software and cybersecurity projects.
+> A professional starter kit for building consistent GitHub repositories with reusable documentation templates, security policies, GitHub Actions workflows, and best practices for software and cybersecurity projects.
 
 ---
 
@@ -35,34 +35,20 @@ The goal is to reduce repetitive work while maintaining a consistent, high-quali
 ├── .github/
 │   ├── workflows/
 │   └── dependabot.yml
-│
 ├── assets/
 │   ├── banners/
 │   ├── badges/
 │   ├── logos/
 │   └── screenshots/
-│
 ├── docs/
 │   └── screenshots/
-│
-├── examples/
-│   ├── devsecops-lab/
-│   ├── docker-project/
-│   ├── python-library/
-│   ├── static-website/
-│   └── terraform-project/
-│
 ├── templates/
-│   ├── github/
-│   │   ├── ISSUE_TEMPLATE.md
-│   │   └── PULL_REQUEST_TEMPLATE.md
-│   │
-│   └── repository/
-│       ├── AUTHOR_TEMPLATE.md
-│       ├── CONTRIBUTING_TEMPLATE.md
-│       ├── README_TEMPLATE.md
-│       └── SECURITY_TEMPLATE.md
-│
+│   ├── README_TEMPLATE.md
+│   ├── AUTHOR_TEMPLATE.md
+│   ├── CONTRIBUTING_TEMPLATE.md
+│   ├── SECURITY_TEMPLATE.md
+│   ├── ISSUE_TEMPLATE.md
+│   └── PULL_REQUEST_TEMPLATE.md
 ├── README.md
 ├── LICENSE
 ├── CODE_OF_CONDUCT.md
@@ -90,15 +76,15 @@ The goal is to reduce repetitive work while maintaining a consistent, high-quali
 
 - GitHub Actions workflows
 - Dependabot configuration
-- Issue templates
+- Issue template
 - Pull request template
 
 ### Documentation Templates
 
 - README template
 - Author template
-- Security template
 - Contributing template
+- Security template
 
 ---
 
@@ -108,16 +94,16 @@ The goal is to reduce repetitive work while maintaining a consistent, high-quali
 2. Review the available templates in the `templates/` directory.
 3. Replace the generated `README.md` with the contents of `templates/README_TEMPLATE.md`.
 4. Customize the repository files according to your project.
-5. Remove any unused templates or workflows.
+5. Remove any templates or workflows that are not required.
 6. Add project-specific documentation.
 7. Configure branch protection rules.
 8. Publish your repository.
 
 ---
 
-## Future Improvements
+## Roadmap
 
-Planned enhancements include:
+Planned future improvements include:
 
 - Additional README templates for different project types
 - Docker project template
